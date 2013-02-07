@@ -14308,11 +14308,11 @@ Various fiducial points for machine vision alignment.</description>
 <part name="IC1" library="A4960" deviceset="A4960" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="10uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="10uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603K" value="10uF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603K" value="220nF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -14337,10 +14337,10 @@ Various fiducial points for machine vision alignment.</description>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X10" device=""/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="microbuilder" deviceset="INDUCTOR" device="0603" value="bead"/>
 <part name="U1" library="microbuilder" deviceset="MC34063A" device="" value="MC34063"/>
